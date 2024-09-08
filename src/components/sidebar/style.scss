@@ -1,0 +1,138 @@
+.sidebar {
+  // width: 280px;
+  width: auto;
+  // min-height: 70vh;
+  height: 100%;
+  background-color: white;
+  // margin-top: 44px;
+  // margin-left: 20px;
+  // display: flex;
+  border-right: 1px solid rgb(238, 236, 236);
+}
+
+.buttom-menu {
+
+  .logo{
+    width: 100% !important;
+  }
+
+  img{
+    width: 200px !important;
+    height: 100px;
+  }
+  
+}
+.show{
+  width: 280px !important;
+}
+
+.buttom-menu-color {
+  color: gray;
+  background-color: white;
+  border-color: gray;
+  // font-size: 2rem;
+  width: 50px;
+  padding: 5px 0 !important;
+}
+
+.buttom-menu-color:hover {
+  color: red;
+  background-color: white;
+  border-color: red;
+}
+
+.menu {
+  // background-color: red;
+  router-link a{
+    text-decoration: none !important;
+  }
+  margin-right: 20px;
+
+  button{
+    text-decoration: none !important;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  h6 {
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+
+  li {
+    .icon {
+      color: gray !important;
+    }
+    h6 {
+      color: gray;
+      margin: 2px;
+    }
+    svg{
+      margin-right: 7px !important;
+    }
+
+    padding: 10px;
+    text-align: left;
+  }
+  li:hover {
+    .icon {
+      color: gray !important;
+    }
+    h6 {
+      color: gray;
+      margin: 4px;
+    }
+    padding: 10px;
+    text-align: left;
+  }
+
+  li:active {
+    padding: 10px;
+  }
+
+  .menu-active {
+    background-color: #e0eff9;
+    border-radius: 10px;
+    .icon {
+      color: #8c96a0 !important;
+    }
+    h6 {
+      color: #3e9dd8 !important;
+      // margin: 4px;
+      font-weight: bold;
+    }
+    // padding: 10px;
+    text-align: left;
+  }
+
+  img {
+    width: 30px;
+    //margin: 25px;
+  }
+
+  .sidebarClient{
+    width: 260px;
+  }
+
+  button{
+    margin-top: 20%;
+    svg, h6{
+      color: #26534f !important;
+      // font-size: 5rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.menu-active {
+  .icon {
+    color: red !important;
+  }
+  h6 {
+    color: red !important;
+    margin: 4px;
+  }
+  padding: 10px;
+  text-align: left;
+}

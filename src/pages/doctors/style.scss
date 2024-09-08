@@ -1,0 +1,182 @@
+.breadcrumbs :deep{
+    background-color: #f1f1f1a1;
+    svg {
+        color: #26534f;
+        font-size: 2.5rem;
+        margin: 0 10px 0 -20px;
+    }
+
+    span{
+        color: #26534f;
+        font-size: 1.2rem;
+    }
+
+    .icon-next{
+        font-size: 1.2rem;
+        margin-left: 15px;
+    }
+
+    .breadcrumb-item {
+        color: #26534f;
+        font-size: 1.2rem;
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+        color: transparent !important;
+        content: var(--bs-breadcrumb-divider, "") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+    }
+
+}
+
+.index-user{
+    padding: 30px 90px;
+
+    .div-title{
+        .title{
+            color: #26534f;
+            font-weight: bold;
+        }
+    }
+    .buttons{
+        text-align: right;
+    }
+
+    button, a{
+        text-transform: uppercase;
+    }
+
+    .btn-create{
+        background-color: #26534f !important;
+        margin-bottom: 10px;
+        width: 250px;
+    }
+
+    .btn-permission {
+        border: 1px dotted #26534f;
+        background-color: transparent;
+        color: #26534f;
+        width: 250px;
+    }
+
+    .filter{
+        width: 100%;
+        display: inline-flex;
+
+        input{
+            background-color: #e0eff9;
+        }
+
+        input::placeholder{
+            color: #77b8e4;
+        }
+
+        button{
+            margin-left: 10px;
+            background-color: #d8dae2;
+            border: none;
+            svg{
+                color: #26534f;
+            }
+        }
+
+    }
+
+    .table-responsive :deep {
+        margin-top: 30px;
+        border-radius: 15px;
+
+        tr th{
+            color: #26534f;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        tr td{
+            color: #353535;
+            padding: 20px 20px 5px;
+            text-align: center;
+        }
+
+        .btn-view{
+            background-color: #c6e2f4;
+            border: none;
+            color: #4f8db6;
+        }
+
+        .btn-action{
+            margin-left: 20px !important;
+            background-color: #e7e7e7;
+        }
+        
+        .delete, .edit{
+            background-color: transparent;
+            color: #26534f;
+            padding: 2px;
+            margin-left: 10px;
+            border: none;
+        }
+    }
+}
+// cadastro
+.register-user{
+    padding: 30px 90px;
+
+    .div-title{
+        .title{
+            color: #26534f;
+            font-weight: bold;
+        }
+    
+    }
+    .buttons{
+        text-align: right;
+        margin-top: 30px;
+    }
+
+    button, a{
+        text-transform: uppercase;
+    }
+
+    .btn-create{
+        background-color: #26534f;
+        // margin-bottom: 10px;
+        width: 200px;
+        border: none;
+        margin-left: 20px;
+    }
+
+    .btn-cancel{
+        background-color: transparent;
+        color: #9b9b9b;
+        border: 1px solid #9b9b9b;
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .btn-save{
+        background-color: #00970f;
+        color: white;
+        width: 200px;
+        border: none;
+    }
+
+    .form{
+        margin-top: 20px;
+        input{
+            margin: 5px 0;
+        }
+
+        .form-group{
+            margin-top: 20px;
+        }
+
+        label{
+            margin-top: 20px;
+        }
+
+        .multiselect{
+            width: 100% !important;
+            background-color: #00970f !important;
+        }
+    }
+}
